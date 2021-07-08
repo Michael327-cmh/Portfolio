@@ -14,59 +14,63 @@
         <h1>Michael Carmody</h1>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="#About-Me">About Me</a></li>
+                <li><a href="#Works">Work</a></li>
+                <li><a href="#Contact-Me">Contact Me</a></li>
+                <li><a href="#Contact-Me">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <article>
-    <h2><span>Life is an Adventure!</span></h2>
-    </article>
-    <main> 
-        <section class="Body_Titles">About Me</section>
-    <p class="About_Me">
+        
+        <article>
+            <h2><span>Life is an Adventure!</span></h2>
+        </article>
+    
+    <main id="About-Me"> 
+            <section class="Body_Titles">About Me</section>
+        <p class="About_Me">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam facere! Inventore dicta neque debitis quidem earum, officiis nobis iure eveniet blanditiis nihil nesciunt deleniti aut saepe accusantium quisquam soluta?
 
         <br>
 
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, alias molestiae quibusdam laborum sapiente quidem a porro excepturi, facilis inventore amet! Atque laudantium laboriosam autem exercitationem eaque accusantium. Ad, ducimus?
 
-    </p>
-<br>
-    <section class="Body_Titles">Work</section>
-    <p class="Work">
-        <ul>
-            <li>Atlas Report
-                <li>MERN Stack</li>
-            </li>
-            <li>LED Wall
-                <li>Node/IoT</li>
-            </li>
-            <li>Calculator
-                <li>React/JavaScript/CSS</li>
-            </li>
-            <li>Color Coordinate
-                <li>MERN Stack</li>
-            </li>
-            <li>Subscription Saver
-                <li>HTML/CSS</li>
-            </li>
-
-        </ul>
-    </p>
-<br>
-    <section class="Body_Titles">Contact Me</section>
-    <p>
-        <ul class="Contact_Me">
-            <li>402.740.1084</li>
-            <li>mr.carmody89@gmail.com</li>
-            <li>Github</li>
-            <li>Twitter</li>
-        </ul>
-    </p>
+        </p>
     </main>
 
+    <aside id="Works">
+            <section class="Body_Titles">Work</section>
+        <div class="first-column">
+            <div id="box1">Atlas Report
+                <div>MERN Stack</div>
+            </div>
+            <div id="box1">LED Wall
+                <div>Node/IoT</div>
+            </div>
+            <div id="box1">Calculator
+                <div>React/JavaScript/CSS</div>
+            </div>
+        </div>
+
+        <div class="first-column">
+            <div id="box2">Color Coordinate
+                <div>MERN Stack</div>
+            </div>
+            <div id="box2">Subscription Saver
+                <div>HTML/CSS</div>
+            </div>
+        </div>
+    </aside>
+
+    <content id="Contact-Me">
+            <section class="Body_Titles">Contact Me</section>
+        <space class="Area">
+            <div>402.740.1084</div>
+            <div>mr.carmody89@gmail.com</div>
+            <div>Github</div>
+            <div>Twitter</div>
+        </space>
+    </content>
 </body>
+
 </html>
